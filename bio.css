@@ -1,0 +1,85 @@
+.mainheader {
+background-color: #fff;
+height: 100px;
+position: relative;
+min-width: 500px;
+display: block;
+margin-bottom: 100px;
+}
+
+#Title {
+font-family: "Quicksand";
+color: #000;
+font-weight: 600;
+position: relative;
+padding-left: 50px;
+padding-top: 20px;
+padding-bottom: 20px;
+min-width: 500px;
+display: block;
+border-bottom: 1px solid;
+border-color: #000;
+}
+
+#navbar {
+display: block;
+padding-left: 15px;
+font-family: "Quicksand";
+color: #000;
+}
+
+li {
+display: inline;
+top: 0;
+text-align: center;
+padding: 5px 15px 5px 15px;
+margin-right: 40px;
+border: 0px solid;
+border-radius: 5px;
+}
+
+li:hover {
+background-color: #F2F2F2;
+}
+
+
+.bio {
+display: block;
+position: relative;
+max-width: 600px;
+writing-mode: horizontal-tb;
+margin-left: auto;
+margin-right: auto;
+margin-top: 30px;
+}
+
+.bio p{
+font-family: "Quicksand";
+font-weight: 400;
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 70px;
+}
+
+a:link {
+color: #000;
+text-decoration: none;
+}
+
+a:visited {
+color: #000;
+text-decoration: none;
+}
+
+
+.title {
+grid-area: 1 / 1 / span 1 / span 3;
+font-family: "Quicksand";
+font-weight: 600;
+position: relative;
+left: 0px;
+}
